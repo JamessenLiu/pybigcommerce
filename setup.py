@@ -1,17 +1,15 @@
-import os
 from setuptools import setup, find_packages
 
-
+version = '0.1.0'
 
 setup(
     name='pybigcommerce',
-    version='0.1.0',
+    version=version,
 
     packages=find_packages(),
     install_requires=['requests>=2.20.0'],
 
-    url='https://github.com/bigcommerce/bigcommerce-api-python',
-    download_url='https://pypi.python.org/packages/source/b/bigcommerce/bigcommerce-{}.tar.gz'.format(VERSION),
+    url='https://github.com/JamessenLiu/pybigcommerce',
 
     author='Jamessen.Liu',
     author_email='liumaosen121@gmail.com',
